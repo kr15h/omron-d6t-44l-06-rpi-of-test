@@ -23,7 +23,7 @@ void ofApp::update()
 	for ( int i=0; i<16; i++ ) {
 		//cout << measurements[i] << ", ";
 		// Store float temperature in an array.
-		temp_cel[i] = (float)measurements[i]*0.1f;
+		temp_cel[i] = (float)measurements[i+1]*0.1f;
 		// Map values to int range assuming that 
 		// the maximum temperature is 50.0f deg celsius.
 		//int rgb_map = (int)(temp_cel[i]/50.0f*255.0f);
