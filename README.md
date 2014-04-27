@@ -3,7 +3,7 @@ Omron D6T-44L-06 test application
 
 Testing the sensor with openFrameworks on the Raspberry Pi. This should display a 4x4 grid with colored rectangles.
 
-I used I2C C functions by Scott Ellis and a C++ class for Omron D6T sensors by JoMu. A zip file can be found in the following [link](http://www.raspberrypi.org/forums/viewtopic.php?f=44&t=47465).
+I used I2C C functions by [Scott Ellis](https://github.com/scottellis) (I hope that's him, correct me if I'm wrong) and a C++ class for Omron D6T sensors by JoMu (someone from the Raspberry Pi forum). A zip file can be found in the following [link](http://www.raspberrypi.org/forums/viewtopic.php?f=44&t=47465).
 
 I was using openFrameworks 0.8.0, but it should work with 0.8.1 as well. So the first thing to have for this example to work is a working copy of openFrameworks on your Raspberry Pi.
 
