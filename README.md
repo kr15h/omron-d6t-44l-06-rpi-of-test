@@ -61,4 +61,11 @@ I think that you will need to install the i2c-dev package as well with:
 sudo apt-get install i2c-dev
 ```
 
+Hardware
+--------
+
+I used the [Bi-Directional Logic Level Converter from Sparkfun](https://www.sparkfun.com/products/12009) to transform the 5V I2C signals that the sensor uses to 3.3V of the Raspberry Pi.
+
+You can find all the necessary information about the Omron human presence detection sensor (including pin layouts) [here](http://www.tme.eu/en/details/d6t-44l-06/temperature-transducers/omron/#).
+
 Have fun!
